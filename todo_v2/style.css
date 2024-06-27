@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+	background-color: #241b53dc;
+	font-size: 100%;
+}
+
+form {
+	padding-top: 1rem;
+	padding-left: 7rem;
+}
+
+form input#note_text {
+	width: 350px;
+}
+
+ul#stickies li {
+	display: block;
+	list-style: none;
+	z-index: 1;
+	float: left; 
+	margin: 70px;
+	padding: 15px 15px 50px 15px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #bfbfbf;
+    background-color: rgb(210, 218, 250); 
+	color: black;
+	text-decoration: none;
+	-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	-o-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	transition: all 1.2s ease-in;
+	overflow: hidden;
+} 
+
+ul#stickies li span.sticky {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+ul#stickies li:hover {
+	-webkit-box-shadow: 5px 5px 6px rgb(255, 255, 255);
+	-moz-box-shadow: 5px 5px 6px rgb(255, 255, 255);
+	-o-box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.4);
+	-webkit-transform: rotate(10deg) scale(1.25);
+	-moz-transform: rotate(0deg) scale(1.25);
+	-o-transform: rotate(0deg) scale(1.25);
+	-ms-transform: rotate(0deg) scale(1.25);
+	transform: rotate(360deg) scale(1.25);
+	z-index: 10;
+}
